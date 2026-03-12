@@ -1,0 +1,27 @@
+[project]
+name = "chatterbox-tts"
+version = "0.1.5"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "librosa>=0.10.0",
+    "transformers>=4.40",
+    "diffusers>=0.29.0",
+    "resemble-perth>=1.0.1",
+    "omegaconf>=2.3.0",
+    "conformer>=0.3.2",
+    "safetensors==0.5.3",
+    "spacy-pkuseg",
+    "russian-text-stresser @ git+https://github.com/Vuizur/add-stress-to-epub",
+
+]
+
+[project.urls]
+Homepage = "https://github.com/resemble-ai/chatterbox"
+Repository = "https://github.com/resemble-ai/chatterbox"
+
+[build-system]
+requires = ["setuptools>=68", "wheel", "pip"]
+build-backend = "setuptools.build_meta"
+
+
